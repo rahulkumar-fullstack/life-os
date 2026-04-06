@@ -1,0 +1,33 @@
+/* Applies consistent box sizing and removes default spacing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sets a readable default line height */
+body {
+  line-height: 1.5;
+}
+
+/* Removes default bullets and numbers from lists */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Makes images responsive by default */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Makes form elements inherit font styles */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
