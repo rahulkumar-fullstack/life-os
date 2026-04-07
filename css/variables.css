@@ -1,0 +1,29 @@
+/* Defines global design variables */
+:root {
+  /* Main app background color */
+  --color-bg: #f8fafc;
+
+  /* Surface color for cards and sections */
+  --color-surface: #ffffff;
+
+  /* Primary brand color */
+  --color-primary: #2563eb;
+
+  /* Default text color */
+  --color-text: #0f172a;
+
+  /* Muted text for secondary content */
+  --color-muted: #64748b;
+
+  /* Base font for the application */
+  --font-base: system-ui, sans-serif;
+
+  /* Small spacing unit */
+  --space-sm: 8px;
+
+  /* Medium spacing unit */
+  --space-md: 16px;
+
+  /* Large spacing unit */
+  --space-lg: 24px;
+}
